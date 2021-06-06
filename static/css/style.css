@@ -1,0 +1,162 @@
+/* *******************TODO LIST************************** */
+.page{
+  display: grid;
+  grid-template-columns:1fr 1fr;
+  grid-column-gap: 10px;
+  height: 80vh;
+}
+
+.frm input{
+  border: 1px solid green;
+  padding: 10px 20px;
+  transition: all .8s;
+  font-family: sans-serif;
+}
+
+.frm input:hover{
+  border: 1px solid blue;
+  padding: 10px 50px;
+  transition: all .8s;
+  border-radius: 20px;
+
+}
+.nm{
+  border: 1px solid green;
+
+}
+
+.tab{
+    border: 1px solid green;
+    padding: 40px;
+
+}
+.tab table{
+  margin-left: 10%;
+  border: 1px solid gray;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+.tab th{
+  text-align: center;
+  background-color: blue;
+  color: white;
+}
+.tab td{
+  padding: 10px 50px;
+  
+}
+
+
+
+/* *******************TODO LIST************************** */
+
+.p1{
+  height: 150vh;
+  background-image: url("../images/dg1.jpg");
+  background-size: cover;
+  clip-path: polygon(0 0, 100% 0, 100% 63%, 0% 100%);
+}
+@media print {
+    html, body {
+       display: none;  /* hide whole page */
+    }
+}
+
+.p2{
+  height: 150vh;
+  background-image: url("../images/dg2.jpg");
+  background-size: cover;
+  clip-path: polygon(0 36%, 100% 0, 100% 63%, 0% 100%);
+  transform: translateY(-30%);
+
+}
+
+.p3{
+  height: 100vh;
+  background-image: url("../images/dg3.jpg");
+  background-size: cover;
+  clip-path: polygon(0 50%, 100% 0, 100% 100%, 0% 100%);
+  transform: translateY(-80%);
+
+}
+
+.x{
+list-style: none;
+width: 5%;
+text-align: center;
+}
+
+.login{
+margin-left: 30%;
+margin-top: 10%;
+    width: 60vh;
+  height: 70vh;
+  transition: all .8s;
+}
+
+.login:hover{
+  transition: all .8s;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+.frm{
+padding: 60px;
+}
+
+.register{
+  margin-left: 35%;
+  margin-top: 8%;
+      width: 60vh;
+    height: 80vh;
+    transition: all .8s;
+}
+
+
+.register:hover{
+  transition: all .8s;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+.frms{
+padding: 60px;
+}
+
+.email{
+  margin-left: 35%;
+  margin-top: 10%;
+      width: 60vh;
+    height: 50vh;
+    transition: all .8s;
+}
+
+
+.dash{
+  margin-top: 20%;
+}
+
+.email:hover{
+  transition: all .8s;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+.frms1{
+padding: 60px;
+}
+
+
+.large{
+  height: 400vh;
+  background-image: url("../images/dg3.jpg");
+}
+.dig{
+  color: white;
+  font-family: sans-serif;
+  padding: 300px;
+  text-align: justify;
+  font-size: 14pt;
+  text-align: center;
+}
+
+.feat{
+  margin-top: 20%;
+}
+
+.qp{
+  margin-top: 8%;
+}

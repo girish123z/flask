@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Todo List</title>
+    <link rel="stylesheet" href="../static/css/bootstrap.css">
+    <link rel="stylesheet" href="../static/css/style.css">
+    <script src="../static/js/sweetalert.min.js" charset="utf-8"></script>
+    <script src="../static/js/jq.js" charset="utf-8"></script>
+    <script src="../static/js/bootstrap.js" charset="utf-8"></script>
+    <script src="../static/js/popper.js" charset="utf-8"></script>
+<style media="screen">
+
+</style>
+
+  </head>
+  <body>
+<h1 style="text-align:center">Todo List</h1>
+<div class="page">
+
+<div class="nm" align=center>
+      <form class="frm" action="" method="post">
+        <p><input type="text" name="name" value="" placeholder="Enter Name"></p>
+        <p><input type="submit" class="btn btn-primary" name="" value="Submit"></p>
+      </form>
+    </div>
+
+<div class="tab">
+    <table border="2px">
+      <tr>
+        <th>Name</th>
+        <th colspan="2">Modify</th>
+      </tr>
+      {% for i in res %}
+      <tr>
+        <td>{{i[1]}}</td>
+        <td><a class="btn btn-sm btn-outline-secondary" href="/edit/{{i[0]}}">Edit</a></td>
+        <td><a class="btn btn-sm btn-outline-secondary" href="/delete/{{i[0]}}">Delete</a></td>
+      </tr>
+      {% endfor %}
+    </table>
+</div>
+</div>
+  </body>
+</html>

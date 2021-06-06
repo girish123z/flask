@@ -1,0 +1,4 @@
+Flask==2.0.1
+passlib==1.7.4
+mysql_connector_repackaged==0.3.1
+gunicorn
