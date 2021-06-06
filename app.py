@@ -3,7 +3,7 @@ import mysql.connector
 from passlib.hash import sha256_crypt
 from functools import wraps
 
-mysqldb = mysql.connector.connect(host = "localhost",user="root",password="",database="student")
+mysqldb = mysql.connector.connect(host = "remotemysql.com",user="2NlMbtvQe6",password="sQAUzfHJTl",database="2NlMbtvQe6")
 
 app = Flask(__name__)
 xyz= ""
